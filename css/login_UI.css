@@ -1,0 +1,37 @@
+.bg{
+
+background: url('../Images/Bg_image.jpg') no-repeat;
+width: 100%;
+height: 100vh;
+
+}
+.main-form{
+
+border: 0px solid #fff;
+padding: 10px 40px;
+margin-top:20%;
+-webkit-box-shadow: -1px 7px 24px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 24px 4px rgba(0,0,0,0.75);
+box-shadow: -1px 7px 24px 4px rgba(0,0,0,0.75);
+}
+*{color: #fff;}
+
+.h2{
+align: center;
+}
+//.row{outline: 1px solid white;}
+//[class*="col-"] {
+	outline:2px solid yellow;
+}
+.modal-body{
+background-color: gray;
+}
+.modal-header{
+background-color: gray;
+}
+.modal-title{
+text-align: center;
+}
+.h5{
+color: blue;
+}

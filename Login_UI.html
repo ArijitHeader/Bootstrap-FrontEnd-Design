@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LoginPage</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="css/login_UI.css" type="text/css" rel="stylesheet">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	     
+
+	</head>
+	<body>
+<div class="container-fluid bg">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12"></div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<!--form starts here --->
+
+
+<form class="main-form">
+  <div class="form-group">
+  <h1>Welcome to Login</h1>
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember Me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-info btn-block" onclick="window.open('Main_UI.html');">Submit</button>
+  <br><div class="row">
+     <div class="col-md-5">
+  <a class="text-primary" data-toggle="modal" data-target="#modalpwd" href="#">Forgot your password?</a></div>
+  <div class="col-md-7"><h5>Don't have an account yet?..</h5>
+  <a href="#" data-toggle="modal" data-target="#modalpopup">Sign Up</a></div>
+  </div>
+  <!---Signup modal start here---->
+    <div id="modalpopup" class="modal" tabindex="-1">
+	<div class="modal-dialog modal-md">
+	<div class="modal-content">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+	<h5 class="modal-title">SignUp Here..</h5>
+	
+	  </div>
+	    <div class="modal-body">
+		<form>
+		<div class="form-group">
+		<label for="exampleFirstName">First Name</label>
+    <input type="FirstName" class="form-control" id="exampleFirstName" placeholder="First Name">
+		</div>
+		<div class="form-group">
+		<label for="exampleLastName">Last Name</label>
+    <input type="LastName" class="form-control" id="exampleLastName" placeholder="Last Name">
+		</div>
+		<div class="form-group">
+		<label for="exampleLastName">Email ID</label>
+    <input type="Email" class="form-control" id="exampleEmail" placeholder="Email">
+		</div>
+		 <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary btn-block btn-group-justified" >Submit</button>
+		</form>
+		
+		
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	</div>
+  
+  
+  
+    <!---Sign up modal end here---->
+<!---forgot pwd modal start here---->
+    <div id="modalpwd" class="modal" tabindex="-1">
+	<div class="modal-dialog modal-md">
+	<div class="modal-content">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+	<h5 class="modal-title">Reset Password Here..</h5>
+	
+	  </div>
+	    <div class="modal-body">
+		<form>
+		<div class="form-group">
+		<label for="exampleLastName">Email ID</label>
+    <input type="Email" class="form-control" id="exampleEmail" placeholder="Email">
+		</div>
+		 <div class="form-group">
+    <label for="exampleInputPassword1">Create Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  		 <div class="form-group">
+    <label for="exampleInputPassword1">Retype Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Retype Password">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputPassword1">Enter OTP</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter six digit otp here">
+	<h5>Your OTP has been sent to your email id..</h5>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary btn-block btn-group-justified" onclick="window.open('Login_UI.html');">Submit</button>
+		</form>
+		
+		
+		</div>
+	</div>
+	
+	
+	</div>
+	
+	</div>
+  
+  
+  
+    <!---forgotpwd modal end here---->
+</form>
+
+
+
+
+<!-- form end-->
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12"></div>
+
+
+</div>
+
+</div>
+		
+			 
+   
+
+   
+</body>
+
+</html>
